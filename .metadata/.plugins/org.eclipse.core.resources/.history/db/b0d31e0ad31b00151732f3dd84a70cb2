@@ -1,0 +1,11 @@
+package Composite;
+
+public class CompositePatternDemo {
+
+	public static void main(String[] args) {
+		Employee CEO = new Employee("John","CEO",30000);
+		Employee headSales = new Employee("Robert","Head Sales",20000);
+		Employee headMarking = new Employee("Michel","Head Marking",20000);
+	}
+
+}

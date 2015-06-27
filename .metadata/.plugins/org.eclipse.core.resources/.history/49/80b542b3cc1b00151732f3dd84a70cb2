@@ -1,0 +1,10 @@
+package Flyweight;
+
+public class ShapeFactory {
+	Circle circle = (Circle)circleMap.get(color);
+	
+	if(circle == null){
+		circle = new Circle(color);
+		circleMap.put(color,circle);
+	}
+}

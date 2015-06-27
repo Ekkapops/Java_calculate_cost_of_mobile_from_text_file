@@ -1,0 +1,13 @@
+package cal;
+
+public class Number {
+	String date,start_time,end_time,number,promotion;
+	
+	public Number(String date,String start_time,String end_time,String number,String promotion){
+		this.date = date;
+		this.start_time = start_time;
+		this.end_time = end_time;
+		this.number = number;
+		this.promotion = promotion;
+	}
+}

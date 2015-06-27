@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Color"/>
+<fullyQualifiedTypeName name="ShapeFactory"/>
+<fullyQualifiedTypeName name="AbstractFactory"/>
+<fullyQualifiedTypeName name="FactoryProducer"/>
+<fullyQualifiedTypeName name="SingleObject"/>
+<fullyQualifiedTypeName name="Packing"/>
+<fullyQualifiedTypeName name="Item"/>
+<fullyQualifiedTypeName name="Bottle"/>
+<fullyQualifiedTypeName name="ColorFactory"/>
+<fullyQualifiedTypeName name="ColdDrink"/>
+<fullyQualifiedTypeName name="Burger"/>
+<fullyQualifiedTypeName name="MealBuider"/>
+<fullyQualifiedTypeName name="java.lang.StrictMath"/>
+<fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+<fullyQualifiedTypeName name="Nyan.Shape"/>
+<fullyQualifiedTypeName name="Nyan.Rectangle"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="Nyan.ShapeCache"/>
+<fullyQualifiedTypeName name="proxy.Image"/>
+<fullyQualifiedTypeName name="proxy.RealImage"/>
+<fullyQualifiedTypeName name="Flyweight.Shape"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="Flyweight.ShapeFactory"/>
+<fullyQualifiedTypeName name="Facade.Shape"/>
+<fullyQualifiedTypeName name="Facade.ShapeMaker"/>
+<fullyQualifiedTypeName name="Decorator.ShapeDecorator"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="Decorator.Shape"/>
+<fullyQualifiedTypeName name="Decorator.RedShapeDecorator"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="Composite.Employee"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="Filter.CriteriaMale"/>
+<fullyQualifiedTypeName name="Filter.CriteriaFemale"/>
+<fullyQualifiedTypeName name="Filter.CriteriaSingle"/>
+<fullyQualifiedTypeName name="Filter.AndCriteria"/>
+<fullyQualifiedTypeName name="Filter.Criteria"/>
+<fullyQualifiedTypeName name="Filter.OrCriteria"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Bridge.Shape"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

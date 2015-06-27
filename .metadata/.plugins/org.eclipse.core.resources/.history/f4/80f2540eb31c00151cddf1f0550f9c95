@@ -1,0 +1,55 @@
+package net.mixedmuffin.cookbook.file;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class SampleFileReader {
+
+	public static void main(String[] args) {
+		readFileAndPrint("d:\\promotion1.log");
+	}
+	
+	public static void readFileAndPrint(String fileName) {
+		FileReader fileReader = null;
+		BufferedReader bufferedReader = null;
+		try {
+			fileReader = new FileReader(fileName);
+			bufferedReader = new BufferedReader(new FileReader(fileName));
+			String line;
+			while ((line = bufferedReader.readLine()) != null) {
+				System.out.println(line);
+				splitString(line);
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (bufferedReader != null) {
+				try {
+					bufferedReader.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			if (fileReader != null) {
+				try {
+					fileReader.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		
+	}
+	
+	public static void splitString(String data) {
+		String[] splitData = data.split("\\|");
+		for (String string : splitData) {
+			System.out.println(string);
+		}
+	}
+
+}

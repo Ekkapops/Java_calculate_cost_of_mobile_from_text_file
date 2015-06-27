@@ -1,0 +1,16 @@
+package net.mixedmuffin.cookbook.string;
+
+public class SplitString {
+
+	public static void main(String[] args) {
+		splitString("Data A|Data B|Data C|Data D|Data E|Data F");
+	}
+	
+	public static void splitString(String data) {
+		String[] splitData = data.split("\\");
+		for (String string : splitData) {
+			System.out.println(string);
+		}
+	}
+
+}
